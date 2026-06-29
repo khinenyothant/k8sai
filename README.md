@@ -8,6 +8,19 @@
 - General Kubernetes explanations
 - Fully local (Ollama + Minikube)
 
+## Prerequisites
+
+Before running this project, make sure you have:
+
+- **Ollama** installed and running
+  - Download from [ollama.com](https://ollama.com)
+  - Run: `ollama pull llama3.2`
+
+- A **local Kubernetes cluster** running (you can use Minikube, kind, or any local cluster)
+
+- Python 3.11+ and Node.js installed
+
+  
 ## Quick Start
 
 ### Backend
